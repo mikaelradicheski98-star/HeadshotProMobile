@@ -26,8 +26,9 @@ jobs:
         with:
           gradle-version: 8.7
 
+      
       - name: Extract project
-        run: unzip -q HeadshotProMobile.zip
+        run: unzip -q HeadshotProMobile-corrigido.zip
 
       - name: Build APK
         run: gradle -p HeadshotProMobile assembleRelease
